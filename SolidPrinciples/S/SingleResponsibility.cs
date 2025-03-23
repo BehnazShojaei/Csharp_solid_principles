@@ -12,25 +12,10 @@ using System;
 
 namespace SolidPrinciples.S
 {
-    // Class that violates SRP (bad example)
-    /*
     class Report
     {
-        public string Title { get; set; }
-        public string Content { get; set; }
-
-        public void SaveToFile(string path)
-        {
-            // Code to save to a file
-        }
-    }
-    */
-
-    // Correct SRP
-    class Report
-    {
-        public string Title { get; set; }
-        public string Content { get; set; }
+        public string? Title { get; set; }
+        public string? Content { get; set; }
     }
 
     class ReportSaver
