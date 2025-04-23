@@ -5,7 +5,7 @@ using SolidPrinciples.S;
 using SolidPrinciples.O;
 using SolidPrinciples.L;
 using SolidPrinciples.I;
-// using SolidPrinciples.D;
+using SolidPrinciples.D;
 
 class Program
 {
@@ -36,9 +36,9 @@ class Program
             case "4":
                 InterfaceSegregationExample.Run();
                 break;
-            // case "5":
-            //     // DependencyInversionExample.Run();
-            //     break;
+            case "5":
+                DependencyInversionExample.Run();
+                break;
 
             default:
                 Console.WriteLine("Invalid input. Exiting.");
