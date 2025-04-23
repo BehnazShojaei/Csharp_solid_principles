@@ -6,8 +6,7 @@
 // Testability: It's easier to write unit tests for classes with a single focus.
 // Flexibility: Changes to one responsibility don't affect unrelated parts of the system.
 
-// SingleResponsibility.cs
-
+//Never overburden a class with multiple responsibility
 using System;
 
 namespace SolidPrinciples.S

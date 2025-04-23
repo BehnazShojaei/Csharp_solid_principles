@@ -1,4 +1,4 @@
-// software entities ... should be open for extension, but closed for modification
+// software entities should be open for extension, but closed for modification
 // Importance
 // Extensibility: New features can be added without modifying existing code.
 // Stability: Reduces the risk of introducing bugs when making changes.
