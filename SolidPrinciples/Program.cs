@@ -4,7 +4,7 @@ using System;
 using SolidPrinciples.S;
 using SolidPrinciples.O;
 using SolidPrinciples.L;
-// using SolidPrinciples.I;
+using SolidPrinciples.I;
 // using SolidPrinciples.D;
 
 class Program
@@ -33,9 +33,9 @@ class Program
             case "3":
                 LiskovExample.Run();
                 break;
-            // case "4":
-            //     InterfaceSegregationExample.Run();
-            //     break;
+            case "4":
+                InterfaceSegregationExample.Run();
+                break;
             // case "5":
             //     // DependencyInversionExample.Run();
             //     break;
